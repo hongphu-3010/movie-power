@@ -42,7 +42,7 @@ const Account = () => {
             src="https://assets.nflxext.com/ffe/siteui/vlv3/b321426e-35ae-4661-b899-d63bca17648a/f2696419-dab5-4911-8df4-4f9426f09d62/VN-en-20220926-popsignuptwoweeks-perspective_alpha_website_large.jpg"
             alt="/"
           />
-          <h3 className="absolute top-[50%] left-[50%] trnaslate-x[-50%] translate-y-[-50%] text-4xl">
+          <h3 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-4xl">
             My Movies
           </h3>
         </div>
