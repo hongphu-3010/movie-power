@@ -59,7 +59,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-col sm:flex-row">
           <h2 className="text-xl md:text-2xl lg:text-3xl w-[50%] lg:w-[33.3%]">
             {" "}
             © hongphu301020@gmail.com
