@@ -46,7 +46,7 @@ const Account = () => {
             My Movies
           </h3>
         </div>
-        <div className="mx-[1rem] md:mx-[2rem] mt-[2rem]">
+        <div className="mx-[1rem] md:mx-[2rem] mt-[2rem] mb-[3rem]">
           <div className="grid grid-cols-allMovie gap-x-[10px] md:gap-x-[20px] gap-y-[3rem] md:grid-cols-allMovieTablet lg:grid-cols-allMoviePc  ">
             {movies?.map((movie, index) => (
               <div className="relative" key={index}>
