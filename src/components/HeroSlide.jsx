@@ -110,9 +110,9 @@ const ItemHero = ({ item, className, type }) => {
         backgroundImage: `url(${background})`,
       }}
     >
-      <div className="flex justify-center items-center relative overflow-hidden">
+      <div className="flex justify-center items-center relative">
         <div
-          className={`${className} hero_wrap lg:w-[55%] px-[3rem] w-[100%] relative z-[1]`}
+          className={`${className} hero_wrap lg:w-[55%] px-[3rem] w-[100%] relative z-[1] overflow-hidden`}
         >
           <h2
             className={`mb-[1rem] text-5xl md:text-6xl lg:text-8xl font-bold delay-[2s]`}
